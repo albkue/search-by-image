@@ -1,0 +1,34 @@
+# ML Search Service Dependencies
+
+# FastAPI
+fastapi==0.121.1
+uvicorn==0.38.0
+python-multipart==0.0.20
+httpx==0.28.1
+
+# ML Core
+ultralytics==8.3.0           # YOLOv8
+paddleocr==2.8.0             # OCR
+paddlepaddle==2.6.0          # PaddlePaddle backend
+
+# Embeddings & Vector Search
+torch==2.2.0
+transformers==4.40.0
+faiss-cpu==1.8.0             # Use faiss-gpu for GPU support
+pillow==10.3.0
+numpy==1.26.0
+
+# Configuration
+pydantic-settings==2.12.0
+python-dotenv==1.2.1
+
+# Testing
+pytest==9.0.1
+
+# Optional: GPU support
+# torch==2.2.0+cu121
+# faiss-gpu==1.8.0
+
+# Fuzzy matching
+thefuzz == 0.17.1
+python-Levenshtein == 0.13.6

@@ -1,0 +1,79 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+lib/
+lib64/
+
+# Virtual environments
+.venv
+env/
+venv/
+ENV/
+
+# Environment variables (keep .env.example, ignore real .env)
+.env
+*.env.local
+
+# ML Models & Weights
+*.pt
+*.pth
+*.onnx
+*.engine
+*.trt
+models/*.pt
+models/*.pth
+yolo26n.pt
+yolov8m.pt
+yolov8n.pt
+
+# FAISS Index & Data
+data/
+*.faiss
+*.index
+product_ids.json
+product_metadata.json
+index_info.json
+
+# Datasets (large files)
+datasets/
+
+# Training runs & outputs
+runs/
+
+# Pytest & Coverage
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+*.log
+
+# Ruff / Linters
+.ruff_cache/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporary files
+tmp/
+temp/
+*.tmp
